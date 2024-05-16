@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       spacing: {
         "a-main": "28.125rem",
+        "a-img-mobile": "15rem",
+        "a-content-mobile": "23.125rem",
         "l-main": "37.5rem",
+        "l-mobile": "21.563rem",
       },
       colors: {
         "Dark-cyan": "hsl(158, 36%, 37%)",

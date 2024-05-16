@@ -29,17 +29,26 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
-    <link rel="stylesheet" href="./src/css/output.css" />
+    <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body>
-    <main class="flex items-center h-screen justify-center bg-Cream">
+    <main
+      class="md:flex items-center h-screen md: justify-center bg-Cream p-7 md:p-0"
+    >
       <section
-        class="h-a-main w-l-main grid grid-cols-2 bg-White-main rounded-lg"
+        class="md:h-a-main md:w-l-main grid md:grid-cols-2 grid-cols-1 bg-White-main rounded-lg"
       >
-        <div class="rounded-l-lg">
+        <div
+          class="md:rounded-l-lg md:grid-cols-2 h-a-img-mobile md:h-full rounded-t-lg"
+        >
           <img
-            class="rounded-l-lg"
-            src="./src/images/image-product-desktop.jpg"
+            class="rounded-l-lg md:h-full hidden md:block"
+            src="./images/image-product-desktop.jpg"
+            alt=""
+          />
+          <img
+            class="rounded-t-lg md:hidden h-a-img-mobile w-full object-cover"
+            src="./images/image-product-mobile.jpg"
             alt=""
           />
         </div>
