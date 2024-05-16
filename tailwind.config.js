@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         "Dark-cyan": "hsl(158, 36%, 37%)",
+        "hover-main": "#1a4031",
         Cream: "#f2ebe3",
         "Very-dark-blue": "hsl(212, 21%, 14%)",
         "Dark-grayish-blue": "hsl(228, 12%, 48%)",
